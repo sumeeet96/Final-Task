@@ -1,0 +1,17 @@
+{
+  "name": "iscodeapplicable-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.0.1",
+    "read-excel-file": "^4.0.6",
+    "xlsx": "^0.16.2",
+    "xlsx-extract": "^0.1.3"
+  }
+}

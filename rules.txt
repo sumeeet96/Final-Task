@@ -1,0 +1,10 @@
+TD.Channel should be within selectedOfferCode.Channel
+TD.TransTypeCode should be within selectedOfferCode.TransTypeCode
+CD..CustomerCategory should be within selectedOfferCode.CustomerCategory
+TD..Currency should be within selectedOfferCode.Currency Array
+if (SelectedOfferCode.minMaxAmountType == "LCY" then check TD.LCY_Amount is between (selectedOfferCode.minimumLCYAmount & selectedOfferCode.maximumLCYAmount)
+if (SelectedOfferCode.minMaxAmountType == "FCY" then check TD.LCY_Amount is between (selectedOfferCode.minAmount & selectedOfferCode.maxAmount for selected Currency)
+TD.Trans_date  is between (selectedOfferCode.offerPeriodStart & selectedOfferCode.offerPeriodEnd)
+CD.[usedCodesshould].usedCount for the selected offer code should be within selectedOfferCode.maximumUsagePerCustomer
+
+
