@@ -34,7 +34,7 @@ let isCodeApplicable  =()=>{
                                 }
                                 else if (jsonoffer.currency=='GPB'){
                                     if (jsonoffer.termsFilter.currency[2].minAmount>=jsontransaction.lcyAmount<=jsonoffer.termsFilter.currency[2].maxAmount){
-                                        console.log("Rule 6 passed") 
+                                        console.log("Rule 6 passed") //Rule 6 cannot get passed as if there is not minmum and max amount the amount is blank  
 
                                     }
                                 }
